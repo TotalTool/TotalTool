@@ -1,0 +1,387 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0043)http://getbootstrap.com/examples/offcanvas/ -->
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="http://getbootstrap.com/favicon.ico">
+
+    <title>Total Tool NotWire</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="./NotWre_files/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./NotWre_files/offcanvas.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/font-awesome-4.6.3/css/font-awesome.min.css" />
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./NotWre_files/ie-emulation-modes-warning.js.download"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="topbar">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="logo">
+                    <a href="#">
+                        <img src="./img/Logo.png" />
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-5" style="float: right;">
+                <div class="info">
+                    1-800-111-1111 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1-800-999-9999 &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; Get a Quote &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; Admin Login
+                </div>
+            </div>
+        </div>
+        <div class="row" id="stripes" style="display: none;">
+
+        </div>
+    </div>
+    <nav class="navbar navbar-inverse">
+        <div class="container" style="margin-left: 100px; margin-right: 100px; width: 1500px;">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="navListItem"><a class="navButton_a" href="NotWre.html" style="padding-bottom: 10px;"><i class="fa fa-home" aria-hidden="true" style="font-size: 1.5em;"></i></a><span class="underline"></span></li>
+                    <li class="navListItem"><a id="navButton_Tool" href="#">Tools</a><span class="underline"></span></li>
+                    <li class="navListItem"><a class="navButton_About" href="about.html">About</a><span class="underline"></span></li>
+                    <li class="navListItem"><a class="navButton_Rental" href="#">Markets</a><span class="underline active"></span></li>
+                    <li class="navListItem"><a class="navButton_Rental2" href="#">Login</a><span class="underline"></span></li>
+                    <li class="navListItem"><a class="navButton_Rental2" href="FAQ.html">FAQ</a><span class="underline"></span></li>
+                    <li class="navListItem"><a class="navButton_Rental3" href="#">Contact Us</a><span class="underline"></span></li>
+                </ul>
+                <form class="navbar-form" role="search" style="padding-right: 0px;">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Action <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" style="color: #000;">
+                            <li style="color: #000;"><a id="normal" href="#" style="color: #000;">Normal</a></li>
+                            <li style="color: #000;"><a id="yellow" href="#" style="color: #000;">Yellow</a></li>
+                            <li style="color: #000;"><a href="#" style="color: #000;">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li style="color: #000;"><a href="#" style="color: #000;">Separated link</a></li>
+                        </ul>
+                    </div>
+                    <div class="form-group navSearch" style="float: right;">
+                        <input class="form-control" placeholder="Search" />
+                    </div>
+                </form>
+            </div><!-- /.nav-collapse -->
+        </div><!-- /.container -->
+    </nav><!-- /.navbar -->
+
+    <div class="serviceIntro">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <h1>Markets Served</h1>
+                    <h2>From general contracting to major industrial companies, Total Tool Supply has a solution tailored to suit your needs.</h2>
+                </div>
+            </div>
+            <nav class="services-nav">
+                <section class="tabs">
+                    <a href="#" id="rental_nav" class="active">
+                        <div>General Contractors</div>
+                    </a>
+                    <a href="#" id="repair_nav">
+                        <div>Industial Companies</div>
+                    </a>
+                    <a href="#" id="training_nav">
+                        <div>Electrical Contractors</div>
+                    </a>
+                    <a href="#" id="inspec_nav">
+                        <div>Mechanical Contractors</div>
+                    </a>
+                    <a href="#" id="utilities_nav">
+                        <div>Utilities</div>
+                    </a>
+                </section>
+            </nav>
+        </div>
+    </div>
+    <div class="serviceMain">
+        <div class="container rental active">
+            <div class="col-lg-12">
+                <h3>General Contracting</h3>
+                <p>Whether it's a hard to find, non-traditional item or a product used every day, Total Tool Supply is well versed in servicing the General Contractor. Knowing that waiting on a tool or piece of equipment can bring a jobsite to a halt, we strive to have what you need in stock and offer many shipping options throughout the midwest and the nation.</p>
+            </div>
+            <div class="row feature-group" style="border-bottom: 1px solid #c2c2c2; padding-bottom: 30px;">
+                <div class="col-sm-6 col-md-4">
+                    <h5>Pre-planning</h5>
+                    <p>Partner with Total Tool as early as during the bid phase to gain accurate pricing and packages to supply your job with the tools and equipment needed to complete your job on time and within budget.</p>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <h5>Rent</h5>
+                    <p>On some jobs renting your equipment may make sense. Maintenance issues, mobility, cost control and inventory control are just a few of the benefits of renting. Check out our <a href="#">Rental pages</a> for detailed rental information.</p>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <h5>On-site Solutions</h5>
+                    <p>Total Tool has a long history of supplying long term jobs, short term jobs or turn-around and shut down work with on-site solutions, such as jobsite trailors. With your inventory or consignment inventory we will work with you to see what fits your needs.</p>
+                </div>
+            </div>
+            <div class="row feature-group" style="margin-top: 40px;">
+                <div class="col-sm-6 col-md-4">
+                    <h5>Repair</h5>
+                    <p>Nothing shuts down work faster than having a tool breakdown. With our highly trained, long term repair department staff you will be up and running before you know it.</p>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <h5>Ordering & Delivery</h5>
+                    <p>Total Tool offers many different ordering mehtods to serve your needs. You can call your sales reprensentative or local location, fax orders to any location or we offer <a href="#">online ordering</a> and order tracking. With local delivery trucks in each of our home markets, to close partnerships with most major shipping companies we will get the products you need to your jobsite in a timely manner.</p>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <h5>Safety</h5>
+                    <p>Total Tool stocks what you need to keep your jobsite safe. From eye, ear and head protection, to gloves, to fall protection, to cones, caution tape, and safety vests. Total Tool also offers a veriety of Safety Training options for your benefit and the safety of the jobsite. Training can be done on-site, at your location or our location. Turn to Total Tool for ladder safety training, fall protection training, rigging inspections, rigging safety training and more. </p>
+                </div>
+            </div>
+        </div>
+        <div class="container repair">
+            <div class="col-lg-12">
+                <h3>Industial Companies</h3>
+                <p>Total Tool Supply is focused on supplying the services, tools and equipment needed to keep facilities up and running. We understand that each manufacturing and industrial facility comes with its own unique set of tools, equipment and services to maintain peak output. Total Tool's long term staff will work with you to determine the best way to service your company, and we will stay in close contact to ensure the partnership is working for you! Total Tool has the tools, equipment and service to support your facility.</p>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-12 col-md-12">
+                    <h5>Plant and Facility Maintenance</h5>
+                    <p>A well maintained facility improves overall productivity. From material handling to testing equipment, from handtools to power tools, from lubricants to safety, even overhead crane inspection and repair! Total Tool has what your facility needs to keep you up and running.</p>
+                </div>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-6 col-md-4">
+                    <h5>Assembly Line</h5>
+                    <p>If your team doesn't have the right tools, accessories and safety equipment your line isn't moving. Total Tool can partner with you to ensure that the right products are on hand either through keep-fills, consignment inventory, regular stock reviews and more.</p>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <h5>Productivity</h5>
+                    <p>Having what you need when and where you need it can improve overall productivity. Ladders, tool storage, bins and cabinets are all available from Total Tool.</p>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <h5>Service</h5>
+                    <p>Our depth of service options will allow you to consolidate vendors again saving you time and money. From tool repair, to tool and equipment rental, to rigging and lifting inspections and training, to crane and hoist sales, services, and inspection we are here to support the efficient running pf your facility.</p>
+                </div>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-12 col-md-12">
+                    <p>A well maintained facility improves overall productivity. From material handling to testing equipment, from hand tools to power tools, from lubricants to safety, even overhead and repair Total Tool has what your facility needs to keep you up and running.
+                    <br />
+                    The wide array of tools, equipment and services Total Tool can offer your company will have you turning to us again and again.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container training">
+            <div class="col-lg-12">
+                <h3>Electrical Contractors</h3>
+                <p>Commercial and Industrial Electricians have always been a core business at Total Tool and with over 30 years servicing this industry we feel confident we can be your preferred supplier. We understand that whether its a service outage or wiring a new building everything you do is on a deadline. That is why we keep hundreds of the top SKU's on the shelf, from preferred supplies like Greenlee, Fluke, Klein, Lenox, Milwaukee, Irwin, and DeWalt. As well as all the equipment you need to keep your team safe on the job: hard hats, work gloves, fall protection, lockout/tagout, cones, safety signs, eye protection and more.</p>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-12 col-md-12">
+                    <p>In addition to <a href="#">New Tool Sales</a> Total Tool offers many services for the commercial electrician. From a full line of Rental Equipment, to complete repair service you will turn to Total Tool again and again. With ten midwest locations and shipping partnerships with most major carriers we can get your tools and equipment out to you quickly and efficiently.</p>
+                </div>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-12 col-md-12">
+                    <p>If its after hours, it doesn't mean If its after hours, it doesn't mean you have to wait till the next business day. Our online ordering module will allow you to check stock and pricing, place orders, track existing orders, view open orders or invoices and even review past orders. <a href="#">Sign up</a> for Total Access today and we become your 24/7 365 supplier.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container inspections">
+            <div class="col-lg-12">
+                <h3>Mechanical Contractors</h3>
+                <p>Since Total Tool opened its doors in 1977, we have been servicing the professional contractors handling commerical and HVAC for buildings and facilities. That is why we keep hundreds of the top SKU's on the shelf, from preferred supplies like Ridgid, Stanley-Proto, Reed, Lenox, Milwaukee, Irwin, and DeWalt. As well as all the equipment you need to keep your team safe on the job; hard hats, work gloves, fall protection, location equipment, cones, safety signs, eye protection and more.</p>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-12 col-md-12">
+                    <p>In addition to <a href="#">New Tool Sales</a>, Total Tool offers many services for the commercial mechanical contractor. From a full line of <a href="#">Rental Equipment</a>, to complete <a href="#">repair service</a> you will turn to Total Tool again and again. With ten midwest locations and shipping partnerships with most major carriers we can get your tools and equipment out to you quickly and efficiently.</p>
+                </div>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-12 col-md-12">
+                    <p>If its after hours, it doesn't mean you have to wait till the next business day. Our online ordering module will allow you to check stock and pricing, place orders, track existing orders, view open orders or invoives and even review past orders. <a href="#">Sign up</a> for Total Access today and we become your 24/7 365 supplier.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container utilities">
+            <div class="col-lg-12">
+                <h3>Utilities</h3>
+                <p>High Line Work? Underground work? Total Tool is confident we can be your preferred supplier. We understand that whether it is a service outage or building infrastructure everything you do is on a deadline. That is why we keep hundreds of the top SKU's on the shelf, from preferred supplies like Greenlee, Fluke, Klein, Huskie, Milwaukee, DBI and DeWalt. As well as all the equipment you need to keep your team safe on the job; hard hats, work gloves, fall protection, lockout/tagout, cones, safety signs, eye protection and more.</p>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-12 col-md-12">
+                    <p>In addition to <a href="#">New Tool Sales</a>, Total Tool offers many services for the utility construction field. From a full line of <a href="#">Rental Equipment</a> and complete <a href="#">repair</a> service to standard and customer <a href="#">Rigging</a> products you will turn to Total Tool again and again. With ten midwest location and shipping partnerships with major carriers we can get your tools and equipment out to you quickly and efficiently.</p>
+                </div>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-12 col-md-12">
+                    <p>If its after hours, it doesn't mean you have to wait till the next business day. Our online ordering module will allow you check stock and pricing, place orders, track existing orders, view open orders or invoices and even review past orders. Sign up for <a href="#">Total Access</a> today and we become your 24/7 supplier.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <nav class="footer-nav">
+                    <div class="col-xs-4 col-sm-4 col-md-3">
+                        <a href="#">Home</a>
+                        <a href="#">Employment</a>
+                        <a href="#">Support</a>
+                        <a href="#">Login</a>
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-3">
+                        <a href="#">Markets</a>
+                        <section class="footer-markets">
+                            <a href="#">General Contractors</a>
+                            <a href="#">Industrial Companies</a>
+                            <a href="#">Electrical Contractors</a>
+                            <a href="#">Mechanical Contractors</a>
+                            <a href="#">Utilities</a>
+                        </section>
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-3">
+                        <a href="#">Contact</a>
+                        <address>
+                            <p style="margin-bottom: 0px;">315 North Piecre Street,</p>
+                            <p>Saint Paul, Minneasota 55104</p>
+                            <p class="email">generic@totaltool.com</p>
+                            <p class="telnumber">Tel: 1-800-444-4899</p>
+                            <p class="faxnumber">Fax: 651-646-8610</p>
+                        </address>
+                    </div>
+                </nav>
+                <section class="site-info xol-xs-6 col-md-3">
+                    <img src="./img/white_TSS.png" />
+                    <p>Website created by us</p>
+                </section>
+                <section class="legal-info col-xs-6 col-md-12">
+                    <p id="siteLegalinfo"><small>© Copyright 2016 by Total Tool Supply, Inc. All Right Reserved.</small></p>
+                    <button id="toTop" type="button">Back to top<i class="fa fa-long-arrow-up" aria-hidden="true"></i></button>
+                    <p class="policies">
+                        <a href="#">Legal information</a>
+                        &nbsp;|&nbsp;
+                        <a href="#">Cookie Policy</a>
+                    </p>
+                    <!-- Single button -->
+                </section>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./NotWre_files/jquery.min.js.download"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="./css/bootstrap/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./NotWre_files/ie10-viewport-bug-workaround.js.download"></script>
+    <script src="./NotWre_files/offcanvas.js.download"></script>
+    <script src="./scripts/Script1.js"></script>
+
+    <script>
+        function sleep(milliseconds) {
+            var start = new Date().getTime();
+            for (var i = 0; i < 1e7; i++) {
+                if ((new Date().getTime() - start) > milliseconds) {
+                    break;
+                }
+            }
+        }
+        //$("#ta").hover(function () {
+            //$("#ta_header").animate({ right: '55px', bottom: '20px' }, "slow");
+            //$(".ta_glyph").animate({ opacity: '0' }, "fast");
+            //$("#sidebar_text").animate({ opacity: '0.0' }, "fast");
+
+        //});
+
+    </script>
+    <script>
+        $("#repair_nav").click(function () {
+            $(".tabs .active").removeClass("active");
+            $("#repair_nav").addClass("active");
+            $(".serviceMain .container.active").animate({ opacity: '0.2' }, "slow");
+            $(".serviceMain .container.active").removeClass("active");
+            $(".repair").addClass("active");
+            $(".repair").animate({ opacity: '1' }, "slow");
+        });
+
+        $("#training_nav").click(function () {
+            $(".tabs .active").removeClass("active");
+            $("#training_nav").addClass("active");
+            $(".serviceMain .container.active").animate({ opacity: '0.2' }, "slow");
+            $(".serviceMain .container.active").removeClass("active");
+            $(".training").addClass("active");
+            $(".training").animate({ opacity: '1' }, "slow");
+        });
+
+        $("#inspec_nav").click(function () {
+            $(".tabs .active").removeClass("active");
+            $("#inspec_nav").addClass("active");
+            $(".serviceMain .container.active").animate({ opacity: '0.2' }, "slow");
+            $(".serviceMain .container.active").removeClass("active");
+            $(".inspections").addClass("active");
+            $(".inspections").animate({ opacity: '1' }, "slow");
+        });
+
+        $("#rental_nav").click(function () {
+            $(".tabs .active").removeClass("active");
+            $("#rental_nav").addClass("active");
+            $(".serviceMain .container.active").animate({ opacity: '0.2' }, "slow");
+            $(".serviceMain .container.active").removeClass("active");
+            $(".rental").addClass("active");
+            $(".rental").animate({ opacity: '1' }, "slow");
+        });
+
+        $("#utilities_nav").click(function () {
+            $(".tabs .active").removeClass("active");
+            $("#utilities_nav").addClass("active");
+            $(".serviceMain .container.active").animate({ opacity: '0.2' }, "slow");
+            $(".serviceMain .container.active").removeClass("active");
+            $(".utilities").addClass("active");
+            $(".utilities").animate({ opacity: '1' }, "slow");
+        })
+    </script>
+
+    <script>
+        $("#yellow").click(function () {
+            $(".serviceIntro h1").css("color", "#ffb81c");
+            $(".services-nav a.active").css("color", "#ffb81c");
+            $(".service-nav a:before").css("background", "#ffb81c");
+            $(".serviceMain h3").css("color", "#ffb81c");
+            $(".serviceMain .col-lg-2 i").css("color", "#ffb81c");
+            $(".serviceMain h5").css("color", "#ffb81c");
+            $(".serviceMain").css("border-top", "1px solid #ffb81c");
+        });
+    </script>
+
+
+</body>
+</html>
