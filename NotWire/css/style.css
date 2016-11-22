@@ -293,6 +293,50 @@
 
 }
 
+.about_home .thing {
+    text-align: center;
+}
+
+.about_home .thing h3 {
+    background-color: #0c1c8c;
+    color: #FFF;
+    display: inline-block;
+    padding: 5px 30px;
+    border-radius: 21px;
+}
+
+.about_home .why {
+    margin-top: 30px;
+}
+
+.about_home .ricky {
+    margin-top: 25px;
+}
+
+.about_home .ricky .icon {
+    text-align: center;
+}
+
+.about_home .ricky .wrap {
+    width: 65px;
+    height: 60px;
+    margin-left: 145px;
+    display: block;
+    background-color: #ffb81c;
+    border-radius: 40px;
+}
+
+.about_home .ricky .header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about_home .ricky i {
+    font-size: 5rem;
+    padding-top: 3px;
+    padding-left: 1px;
+}
+
 .about_home h4 {
     margin-bottom: 20px;
     font-weight: 600;
