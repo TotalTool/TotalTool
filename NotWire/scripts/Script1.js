@@ -54,6 +54,11 @@ $("#toTop").click(function () {
     }, 500);
 });
 
+$("#hombre").click(function () {
+    $(".serviceMain").css("background-color", "linear-gradient(to bottom, #0c1c8c 5%, #1b256f 100%)");
+    $(".serviceMain").css("background", "linear-gradient(to bottom, #333 5%, #777 100%)");
+});
+
 $(".navListItem a").hover(function () {
     if (!$(this).siblings().hasClass("active")) {
         $(this).siblings(".underline").css("background-color", "rgba(255,184,28,0.6)");
