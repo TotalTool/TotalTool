@@ -1,0 +1,51 @@
+.sidebar_header {
+	font-family: Georgia, serif;
+
+}
+
+#sidebar_text {
+	font-family: "Interstate Black";
+}
+
+#navbar li a {
+    font-family: 'Droid Serif', Georgia, Times, serif;
+    padding: 17px 25px 15px 25px;
+    font-size: 17px;
+    font-weight: normal;
+    font-variant: normal;
+    letter-spacing: normal;
+}
+
+.about_head h1 {
+    font-family: "Instate Black";
+}
+
+.overlay_title h4 {
+    font-family: Georgia, serif;
+}
+
+.about_home h4 {
+    font-family: Georgia, serif;
+}
+
+.about_home h5 {
+    font-family: Georgia, serif;
+}
+
+.about_home p {
+    font-family: "Instate Black";
+    font-size: 19px;
+}
+
+.overlay_text p {
+    font-family: Georgia, serif;
+}
+
+.overlay_button a {
+    font-family: Georgia, serif;
+
+}
+
+.toolsMain {
+    font-family: Georgia, serif;
+}

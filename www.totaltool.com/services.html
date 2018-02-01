@@ -1,0 +1,680 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0043)http://getbootstrap.com/examples/offcanvas/ -->
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="./img/ttLogo_small.png">
+
+    <title>Total Tool Supply, Inc.</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="./NotWre_files/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./NotWre_files/offcanvas.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/font-awesome-4.6.3/css/font-awesome.min.css" />
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./NotWre_files/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="topbar">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="logo">
+                    <a href="/">
+                        <img src="./img/TTlogo_clean.png" />
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-5" style="float: right;">
+                <div class="info">
+                    1-800-444-4899
+                </div>
+            </div>
+        </div>
+        <div class="row" id="stripes" style="display: none;">
+
+        </div>
+    </div>
+    <nav class="navbar navbar-inverse">
+        <div class="container" style="">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="navListItem"><a class="navButton_a" href="/" style="padding-bottom: 10px;"><i class="fa fa-home" aria-hidden="true" style="font-size: 1.5em;"></i></a><span class="underline"></span></li>
+                    <li class="navListItem"><a id="navButton_About" href="tools">Tools</a><span class="underline"></span></li>
+                    <li class="navListItem"><a class="navButton_Tool" href="services">Rental</a><span class="underline active"></span></li>
+                    <li class="navListItem"><a class="navButton_Rental" href="services_repair">Repair</a><span class="underline"></span></li>
+                    <li class="navListItem"><a class="navButton_Rental2" href="services_rigging">Rigging</a><span class="underline"></span></li>
+                    <li class="navListItem"><a class="navButton_Rental2" href="safety">Safety</a><span class="underline"></span></li>
+                    <li class="navListItem"><a class="navButton_Rental2" href="about">About</a><span class="underline"></span></li>
+                    <li class="navListItem"><a class="navButton_Rental2" href="cranehoist">Crane & Hoist</a><span class="underline"></span></li>
+                    <li class="navListItem"><a class="navButton_Rental3" href="employment">Employment</a><span class="underline"></span></li>
+                    <li class="navListItem"><a class="navButton_Rental2" href="FAQ">FAQ</a><span class="underline"></span></li>
+                </ul>
+            </div><!-- /.nav-collapse -->
+        </div><!-- /.container -->
+    </nav><!-- /.navbar -->
+
+    <div class="serviceIntro" style="background-color: #141414; background-image: url(https://www.transparenttextures.com/patterns/dark-stripes.png);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <h1>Services</h1>
+                    <h2>Total Tool provides services for the companies that build and maintain facilites and systems. Let us be your one-stop destination for all your service needs.</h2>
+                </div>
+            </div>
+            <nav class="services-nav">
+                <section class="tabs">
+                    <a href="#" id="rental_nav" class="active">
+                        <div>Rental</div>
+                    </a>
+                    <a href="#" id="repair_nav">
+                        <div>Repair</div>
+                    </a>
+                    <a href="#" id="rigging_nav">
+                        <div>Rigging</div>
+                    </a>
+                    <a href="#" id="training_nav">
+                        <div>Training</div>
+                    </a>
+                    <a href="#" id="inspec_nav">
+                        <div>Inspections</div>
+                    </a>
+                </section>
+            </nav>
+        </div>
+    </div>
+    <div class="serviceMain" style="background-color: #888b8d; background-image: url(https://www.transparenttextures.com/patterns/dust.png)">
+        <div class="container rental active">
+            <div class="col-lg-2">
+                <span class="icon-Rental_icon" id="rental_icon" style="color:#2f2f2f;"></span>
+            </div>
+            <div class="col-lg-10">
+                <h3>Rental</h3>
+                <h6 style="font-size: 22px; color: #404040;">Quality rental tools & equipment. Well serviced. Priced right.</h6>
+                <p style="color:#111; font-size: 18px;">Large or small, Total Tool’s Rental Department has the right tool for the job− from hand tools to generators to compressors and more!  Our rental fleet is up-to-date, extensive, and backed by factory-trained service professionals.</p>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-6 col-md-6">
+                    <h5 style="font-size: 22px; color: #404040;">Rental Rates</h5>
+                    <p style="margin-bottom: 0px; margin-top: 0px;">Construction equipment is available to rent by the day, week or month</p>
+                    <p style="margin-bottom: 0px; margin-top: 0px;">One day = 24 hours.</p>
+                    <p style="margin-bottom: 0px; margin-top: 0px;">One week = 5 consecutive days</p>
+                    <p style="margin-bottom: 0px; margin-top: 0px;">One month = twenty-eight consecutive days</p>
+                    <h5 style="font-size: 22px; color: #404040; margin-top: 25px;">Rental Packages</h5>
+                    <p style="color:#111; font-size: 18px;">Need more than one tool or machine? We’re happy to customize a multi-unit rental package for your job. Whether its plant shutdowns, turnarounds or short term jobs, this may be a perfect option.</p>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <div class="rentalPic">
+                        <img src="./img/rentalPic2.jpg" />
+                    </div>
+                </div>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-6 col-md-6">
+                    <div class="rentalPic">
+                        <img src="./img/rentalPic1.jpg" />
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <p style="color:#111; font-size: 18px; padding-top: 60px;"><strong><i>Delivery?...</i></strong>You bet! Our on-site delivery service has you covered. Give us a call and we will help you rent the equipment you need for your next project.</p>
+                </div>
+            </div>
+            <div class="row feature-group" style="border-bottom: 1px solid #c2c2c2; padding-bottom: 30px;">
+                <div class="col-sm-12 col-md-12">
+                    <p style="color:#111; font-size: 18px;">If longer than standard periods of time are needed, Total Tool will create an agreement to fit your needs.</p>
+                    <p style="color:#111; font-size: 18px;">Double or Triple Shifts Charges will be applied if equipment is used in excess of 8 hours a day, 40 hours a week or 160 hours per month.</p>
+                </div>
+            </div>
+            <div class="row feature-group" style="margin-top: 20px; margin-bottom: 20px;">
+                <div class="col-sm-5 col-md-5">
+                    <a href="./img/rentalPDF.pdf"><img src="./img/rentalPDF_pic.jpg" /></a>
+                </div>
+                <div class="col-sm-7 col-md-7">
+                    <p style="margin-bottom: 0px; margin-top: 200px;"><a href="./img/rentalPDF.pdf">Click here</a> for more information on our Rental offerings.</p>
+                </div>
+            </div>
+            <div class="row feature-group" style="margin-top: 50px; margin-bottom: 20px;">
+                    <img src="./img/ARApic.jpg" style="width: 20%; display: block; margin: auto;"/>
+            </div>
+        </div>
+        <div class="container repair">
+            <div class="col-lg-2">
+                <span class="icon-repair_icon" id="repair_icon" style="color:#2f2f2f;"></span>
+            </div>
+            <div class="col-lg-10">
+                <h3>Repair</h3>
+                <h6 style="font-size: 22px; color: #404040;">Authorized Repair. Expert Service. Full Inventory of Parts.</h6>
+                <p>Total Tool Supply is a factory authorized repair center for most major manufacturers. We are capable of repairing and certifying a broad range of tools and equipment at each of our 12 branches throughout the Midwest. For those who prefer to do their own in-house repair, Total Tool stocks and sells a variety of parts. Whichever route you choose, you’ll find our technicians knowledgeable, professional and their service of the highest caliber.</p>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-6 col-md-6">
+                    <h6 style="font-size: 18px; color: #404040;">Total Tool Supply repairs most major brands for the following tools & equipment:</h6>
+                </div>
+            </div>
+            <div class="row feature-group" style="border-bottom: 1px solid #c2c2c2; padding-bottom: 30px;">
+                <div class="col-sm-3 col-md-3" id="repairList">
+                    <p>Air Equipment, Tools & Compressors</p>
+                    <p>Bending and Pulling Equipment</p>
+                    <p>Compaction Equipment</p>
+                    <p>Concrete Vibrators</p>
+                    <p>Gas Powered Saws</p>
+                    <p>Gas Small Engines</p>
+                    <p>Generators</p>
+                    <p>Hoisting Equipment</p>
+                </div>
+                <div class="col-sm-3 col-md-3" id="repairList">
+                    <p>Hydraulics</p>
+                    <p>Material Lifts</p>
+                    <p>Railroad Equipment</p>
+                    <p>Retractable Lifelines/Retrieval Systems</p>
+                    <p>SeeSnakes</p>
+                    <p>Small Power Tools</p>
+                    <p>Threading Equipment</p>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <div class="repairPic">
+                        <img src="./img/repairPic2.jpg" />
+                    </div>
+                </div>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-12 col-md-12" style="margin-bottom: 20px;">
+                    <h5 style="font-size: 22px; color: #404040; margin-bottom: 25px; text-align: center;">Certified Warranty Repair Center for these fine manufacturers</h5>
+                    <img src="./img/repairManu_pic.jpg" style="width: 45%; display: block; margin: auto;" />
+                </div>
+            </div>
+            <div class="row feature-group" style="margin-top: 40px; margin-bottom: 25px;">
+                <h5>Our Shop...</h5>
+                <div class="col-sm-6 col-md-6">
+                    <div class="repairPic">
+                        <img src="./img/repairPic1.jpg" />
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <div class="repairPic">
+                        <img src="./img/repairdesk.jpg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container rigging">
+            <div class="col-lg-2">
+                <span class="icon-chain" id="rigging_icon" style="color:#2f2f2f;"></span>
+            </div>
+            <div class="col-lg-6">
+                <h3>Rigging</h3>
+                <h6 style="font-size: 22px; color: #404040;">We have your lifting solution.</h6>
+                <p>Need something to be lifted, moved, or secured? Our rigging specialists and sales people have the knowledge to find the best solution for your application. Total Tool specializes in all areas of below-the-hook rigging and lifting devices and stocks a wide variety of slings.  We manufacture onsite, and can accommodate any special needs you may have.  In addition, we carry a large inventory of rigging hardware -- hooks, shackles, eye bolts, thimbles, swivels, lifting rings and much more.</p>
+            </div>
+            <div class="col-lg-4">
+                <div class="riggingPic">
+                    <img src="./img/riggingPic3.jpg" />
+                </div>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-12 col-md-12" style="margin-bottom: 10px;">
+                    <p>For more information on product availability, check out <a href="https://via.totaltool.com/VIA/index.jsp">Total Access.</a> Have questions or looking for inspection help? <a href="location.html">Call us!</a></p>
+                </div>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-12 col-md-12">
+                    <h4 style="font-size: 30px; color: #404040; font-weight: 600;">Synthetic Slings</h4>
+                    <p>Total Tool manufactures synthetic slings on-site at our St. Paul, MN branch from materials produced in the USA. They are generally made of nylon or polyester and are used below the hook to attach the load being lifted.  Best for short-term use, they are considered the most reliable for handling delicate loads.  Each sling must have an attached identification tag providing the grade, size, reach, type of sling, working load limit at a specific angle of lift, and serial number.</p>
+                </div>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-12 col-md-12" style="margin-bottom: 20px;">
+                    <img src="./img/riggingSlingChart.jpg" style="width:100%; display: block; margin: auto;" />
+                </div>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-12 col-md-12" id="repairList">
+                    <h5 style="font-size: 22px; color: #404040; font-style: italic; font-weight: 500; ">Web Slings</h5>
+                    <p>Web slings are used for lifting highly-polished, fragile or delicate loads needing protection from damage. They are made of either nylon or polyester flat webbing and offer a wide surface area to ensure a secure grip around the load. Their superb flexibility allows them to be quickly and safely handled by riggers.</p>
+                </div>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-6 col-md-6" id="repairList">
+                    <h6 style="font-size: 18px; color: #2e2e2e; text-align:center;">Use & Inspection:</h6>
+                    <p>Before each use, all slings, fastenings and attachments should be inspected for defects and damage.  Additional inspections should be performed on a regular basis.  Damaged or defective slings should be removed and destroyed immediately.</p>
+                    <p>A sling should be removed from service if damage such as the following is visible:</p>
+                    <ul>
+                        <li>Acid or caustic burns.</li>
+                        <li>Melting or charring of any part of the sling.</li>
+                        <li>Holes, tears, cuts or snags.</li>
+                        <li>Excessive abrasive wear.</li>
+                        <li>Knots in any part of the sling.</li>
+                        <li>Excessive pitting, corrosion, cracking or distortion in end fittings.</li>
+                        <li>Other visible damage that causes doubt as to the strength of the sling.</li>
+                    </ul>
+                    <div class="riggingPic" style="background-color: #fff; padding-top: 0px;">
+                        <img src="./img/riggingPic7.jpg" style="display: block; margin: 0 auto; width: auto; " />
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6" id="repairList">
+                    <h6 style="font-size: 18px; color: #2e2e2e; text-align:center;">How to Order:</h6>
+                    <p>To order your Web Sling, you will need to know the following information:</p>
+                    <ul>
+                        <li>Determine the maximum weight and size of the load to be lifted.</li>
+                        <li>Determine the type and length of sling needed to fit your application.</li>
+                    </ul>
+                    <div class="riggingPic" style="background-color: #fff; padding-top: 0px;">
+                        <img src="./img/riggingPic8.png" style="display: block; margin: 0 auto; width: 83%; " />
+                    </div>
+                    <div class="riggingPic" style="background-color: #fff; padding-top: 0px;">
+                        <img src="./img/riggingPic9.png" style="display: block; margin: 0 auto; width: 90%; " />
+                    </div>
+                </div>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-12 col-md-12" id="repairList">
+                    <h5 style="font-size: 22px; color: #404040; font-style: italic; font-weight: 500;">Round Slings</h5>
+                    <p>Round slings have large capacity while being relatively inexpensive. Their pliable design allows it to hug a load better than other types of lifting slings. They are covered with a durable polyester color-coded fabric jacket to indicate the weight capacities of the sling—making it easy to recognize the weight ratings at a glance.</p>
+                </div>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-6 col-md-6" id="repairList">
+                    <h6 style="font-size: 18px; color: #2e2e2e; text-align:center;">Use & Inspection:</h6>
+                    <p>Before each use, all slings, fastenings and attachments should be inspected for defects and damage. Additional inspections should be performed on a regular basis. Damaged or defective slings should be removed and destroyed immediately.</p>
+                    <p>A sling should be removed from service if damage such as the following is visible:</p>
+                    <ul>
+                        <li>Acid or caustic burns.</li>
+                        <li>Melting or charring of any part of the sling.</li>
+                        <li>Holes, tears, cuts or snags.</li>
+                        <li>Excessive abrasive wear.</li>
+                        <li>Knots in any part of the sling.</li>
+                        <li>Excessive pitting, corrosion, cracking or distortion in end fittings.</li>
+                        <li>Other visible damage that causes doubt as to the strength of the sling.</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-6" id="repairList">
+                    <h6 style="font-size: 18px; color: #2e2e2e; text-align:center;">How to Order:</h6>
+                    <p>To select your round sling, we will need to know:</p>
+                    <ul>
+                        <li>The maximum weight and size of load to be lifted.</li>
+                        <li>The length of the sling needed for your application. (Be sure to take into account whether the sling will be used in a vertical, choker or basket capacity).</li>
+                    </ul>
+                    <p>Using this information, we will match the correct round sling for your application. Each Round Sling is marked with a Rated Capacities Tag for your reference in the field.</p>
+                </div>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-12 col-md-12" id="repairList">
+                    <div class="riggingPic" style="background-color: #fff; padding-top: 0px;">
+                        <img src="./img/riggingPic6.jpg" style="display: block; margin: 0 auto; width: auto; "/>
+                    </div>
+                </div>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-12 col-md-12" id="repairList">
+                    <h5 style="font-size: 22px; color: #404040; font-style: italic; font-weight: 500;">Chain Slings & the GrabiQ Sling System</h5>
+                    <p>Operating under high temperatures, near environmental hazards or rugged conditions that may cause damage when raising a load? Chain slings are your answer—flexible, long lasting, ductile, easy to inspect and collapsible for convenient storage. If customization is necessary, they are an excellent choice as they can be configured in a number of ways to ensure they adhere securely and meet the needs of your lift.</p>
+                    <p>Chain is an important tool in rigging. That is why we stock a wide variety of chain and components. Chain is made out of steel links that are then forged together at a high temperature. There are different grades of chain for different uses:</p>
+                    <p><strong>Grade 30 Proof Coil</strong> - a general purpose utility chain used for pulling, logging or towing.</p>
+                    <p><strong>Grade 40 High Test</strong> - has a higher tensile strength than Grade 30 used for hauling and other general purpose applications.</p>
+                    <p><strong>Grade 70 Transport</strong> - primarily used for load binding in the transportation industry due to its light weight and high tensile strength.</p>
+                    <p><strong>Grade 80 Alloy</strong> - a high tensile strength chain designed to be used in lifting applications manufactered by Gunnebo Johnson corp. All Grade 80 chain and components are proof tested at their factory.</p>
+                    <p><strong>Grade 100 Alloy</strong> - 25% stronger than Grade 80. Combine with GrabiQ components.</p>
+                </div>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-12 col-md-12" id="repairList">
+                    <p>Rigging has never been easier than with the incorporation of the GrabiQ sling system. Instead of the normal 7 top fittings, the GrabiQ system has only 1 therefore reducing the number of components and making it much more versatile.  Fewer parts not only make the sling lighter, but easier to use, inspect and maintain.   Additionally, GrabiQ offers more configuration options than standard components and is 25% stronger than a grade 80 sling.</p>
+                    <p>Each chain sling must have an attached identification tag providing the grade, size, reach, type of sling, working load limit at a specific angle of lift, and serial number.   </p>
+                </div>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-12 col-md-12" id="repairList">
+                    <h5 style="font-size: 22px; color: #404040; font-style: italic; font-weight: 500;">Wire Rope Slings</h5>
+                    <p>Wire rope slings are robust, durable, have high temperature limits and are the most economical option for most lifting needs. They also are the most frequently used type of sling in the industry.  Total Tool has the capability to fabricate these in various configurations at our rigging shops.  Each sling must have an attached identification tag providing the grade, size, reach, type of sling, working load limit at a specific angle of lift, and serial number.   </p>
+                    <p>Wire rope is made of many small wires that have been pulled through a machine and twisted to form a rope. XIP is the most common grade for wire rope. We stock this grade in sizes from 1/32” to 1-1/2” XXIP can be special ordered if needed for a special application. XXIP has a 10% higher nominal strength than XIP, which allows those who need this grade to use a smaller diameter wire rope and still have the same capacities as XIP.</p>
+                    <p>All wire rope of the same classification, size, grade and core have the same nominal strength and weight per foot. Different constructions within each classification differ in working characteristics. These characteristics must be considered when you are selecting a wire rope. The two most popular classifications are 6x19 and 6x37, with either a wire center core or a fiber core</p>
+                </div>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-12 col-md-12" id="repairList">
+                    <h5 style="font-size: 22px; color: #404040; font-style: italic; font-weight: 500;">Bulk Wire Rope</h5>
+                    <p>Need a replacement wire rope for your overhead or mobile crane? Total Tool manufactures a wide range of standard and custom wire rope assemblies onsite.  Domestic, import and specialty ropes.</p>
+                </div>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-12 col-md-12" id="repairList">
+                    <h5 style="font-size: 22px; color: #404040;">Hardware</h5>
+                    <p>Total Tool offers a variety of fittings for many different applications including shackles, eye bolts, swivels, lifting rings and many more. Not sure what will work best?  Our rigging specialists and sales team will guide you to the best solution.</p>
+                </div>
+            </div>
+            <div class="row feature-group" style="background-color: #fff;">
+                <div class="col-sm-2 col-md-2" id="repairList">
+                    <div class="riggingPic">
+                        <img src="./img/riggingPic10.jpg" />
+                    </div>
+                </div>
+                <div class="col-sm-2 col-md-2" id="repairList">
+                    <div class="riggingPic">
+                        <img src="./img/riggingPic11.jpg" />
+                    </div>
+                </div>
+                <div class="col-sm-2 col-md-2" id="repairList">
+                    <div class="riggingPic">
+                        <img src="./img/riggingPic12.jpg" />
+                    </div>
+                </div>
+                <div class="col-sm-2 col-md-2" id="repairList">
+                    <div class="riggingPic">
+                        <img src="./img/riggingPic13.jpg" />
+                    </div>
+                </div>
+                <div class="col-sm-2 col-md-2" id="repairList">
+                    <div class="riggingPic">
+                        <img src="./img/riggingPic14.jpg" />
+                    </div>
+                </div>
+                <div class="col-sm-2 col-md-2" id="repairList">
+                    <div class="riggingPic">
+                        <img src="./img/riggingPic15.jpg" />
+                    </div>
+                </div>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-12 col-md-12" id="repairList">
+                    <h5 style="font-size: 22px; color: #404040;">Below the Hook Lifting Devices</h5>
+                    <p>Below the Hook Lifters are pieces of equipment that provide a connection point between the crane and the load being lifted and include:  plate lamps, beam clamps, lifting beams.</p>
+                </div>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-12 col-md-12" id="repairList">
+                    <h5 style="font-size: 22px; color: #404040;">Manual Hoists</h5>
+                    <p>Total Tool is a supplier of manual lever and chain hoists which are both used to effectively for pull, lift and position materials.  We offer standard and custom chain lengths and are able to repair and load test all the major brands.  Got a short term job in need of a manual hoist?  Turn to Total Tool when renting makes more sense.  We offer high quality equipment delivered to your jobsite. </p>
+                </div>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-12 col-md-12" id="repairList">
+                    <h5 style="font-size: 22px; color: #404040;">Manual Lever Hoists</h5>
+                    <p>Manual lever operated hoists are a basic and versatile piece of equipment used in numerous applications to aid workers in the handling, moving, and tensioning of loads.  They are generally available in three types as defined by the medium used to tension or move the load:  chain, wire rope, and web strap. </p>
+                </div>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-6 col-md-6" id="repairList">
+                    <h5 style="font-size: 22px; color: #404040;">Chain Falls</h5>
+                    <p>A hand-powered hoist consisting of chains working on the pulley principle, used to lift and move large heavy objects.</p>
+                    <h5 style="font-size: 22px; color: #404040;">Tie Downs</h5>
+                    <p>Tie down straps are fasteners used to hold down cargo or equipment during transport. These straps are essentially webbing outfitted with hardware which allows the tie down strap to attach to the area of concern.  The strap either surrounds, loops over and/or attaches to the cargo or equipment.   There are several different kinds of fasteners with the most common being Ratchet Straps, Chain Binders and Tie Down Chains.  Total Tool carries all of these and more!</p>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <div class="riggingPic">
+                        <img src="./img/riggingPic2.jpg" />
+                    </div>
+                </div>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-12 col-md-12" id="repairList">
+                    <h5 style="font-size: 22px; color: #404040;">Training</h5>
+                    <p>Training is one of the many services offered by Total Tool. Seminars are targeted at safety managers, construction laborers, salvage and industrial workers, engineers, crane and rigging crews and all trades.  Training sessions are available throughout the year and we’re happy to instruct at our facility or yours.</p>
+                    <p><i>&nbsp&nbsp&nbspRigging Training</i></p>
+                    <p><i>&nbsp&nbsp&nbspSignal Training</i></p>
+                </div>
+            </div>
+            <div class="row feature-group" style="border-bottom: 1px solid #c2c2c2; padding-bottom: 30px;">
+                <div class="col-sm-12 col-md-12" id="repairList">
+                    <h5 style="font-size: 22px; color: #404040;">On-site Inspections</h5>
+                    <p>Total Tool recognizes the importance of providing REPAIR and INSPECTION services to our customers.  Not only are there safety and compliancy factors to consider but consistent maintenance will increase your productivity.  At the completion of every inspection you will receive a paper and electronic copy of your report for easy future access.</p>
+                    <p><i>&nbsp&nbsp&nbspTraining</i></p>
+                    <p><i>&nbsp&nbsp&nbspManual Hoist</i></p>
+                    <p><i>&nbsp&nbsp&nbspOverhead Cranes</i></p>
+                    <p><i>&nbsp&nbsp&nbspInspectALL</i></p>
+                </div>
+            </div>
+            <div class="row feature-group" style="margin-top: 20px; margin-bottom: 20px;">
+                <div class="col-sm-5 col-md-5">
+                    <a href="./img/riggingPDF.pdf"><img src="./img/riggingPDF_pic.jpg" /></a>
+                </div>
+                <div class="col-sm-7 col-md-7">
+                    <p style="margin-bottom: 0px; margin-top: 200px;"><a href="./img/riggingPDF.pdf">Click here</a> for more information on our Rental offerings.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container training">
+            <div class="col-lg-2">
+                <span class="icon-users" id="training_icon" style="color:#2f2f2f;"></span>
+            </div>
+            <div class="col-lg-10">
+                <h3>Training</h3>
+                <p>Training is one of the many services offered by Total Tool.  Seminars are targeted at safety managers, construction laborers, salvage and industrial workers, engineers, crane and rigging crews and all trades.  Training sessions are available throughout the year and we’re happy to instruct at our facility or yours.</p>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-12 col-md-12">
+                    <h5>Rigging Training</h5>
+                    <p>The goal of our rigging Training is to make lifting operations as safe as possible.  Attendees will learn about maintenance, general rigging, lifting safety and the correct use of rigging gear.  Qualified Riggers will cover: </p>
+                </div>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-7 col-md-7">
+                    <p style="margin-top: 0px; margin-bottom: 0px;">Definitions related to slings, hoists and rigging gear</p>
+                    <p style="margin-top: 0px; margin-bottom: 0px;">Rigging hardware specifications; identification and selection criteria</p>
+                    <p style="margin-top: 0px; margin-bottom: 0px;">Inspection & removal criteria per OSHA & ASME</p>
+                    <p style="margin-top: 0px; margin-bottom: 0px;">Safe rigging practices</p>
+                    <p style="margin-top: 0px; margin-bottom: 0px;">Factors that affect Working Load Limit</p>
+                    <p style="margin-top: 0px; margin-bottom: 0px;">Proper application of sling protectors</p>
+                    <p style="margin-top: 0px; margin-bottom: 0px;">Knots for tag lines</p>
+                </div>
+                <div class="col-sm-5 col-md-5">
+                    <a href="./img/trainingRig.jpg">
+                        <img src="./img/trainingRig.jpg" style="width: 50%; display:block; margin: auto;" />
+                    </a>
+                </div>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-6 col-md-6">
+                    <h5>Signal Training</h5>
+                    <p>A signal person is required when the point of operation is not in full view of the operator, the operator's view is obstructed in the direction of the equipment is traveling, or because of site-specific safety concerns.</p>
+
+                </div>
+                <div class="col-sm-6 col-md-6" style="padding-top: 50px;">
+                    <p style="margin-top: 0px; margin-bottom: 0px;">Training topics covered:</p>
+                    <p style="margin-top: 0px; margin-bottom: 0px;">Know and understand type of signals used at worksite level.</p>
+                    <p style="margin-top: 0px; margin-bottom: 0px;">Competency in using signals.</p>
+                    <p style="margin-top: 0px; margin-bottom: 0px;">Understanding the operations andlimits of equipment and more!</p>
+                </div>
+            </div>
+            <div class="row feature-group" style="margin-bottom: 30px;">
+                <div class="col-sm-12 col-md-12">
+                    <h5>E-Learning Signal Person/Rigging/Cranes</h5>
+                    <p>Total Tool Supply is a member of the Industrial Training International Advanced Rigging Network - a training partneship providing world class crane and rigging training to member customers like you.</p>
+                    <a href="http://www.iti.com/total-tool-ititn-crane-rigging-info-kit-1">
+                        <img src="./img/elearning_pic.jpg" style="width: 45%; display: block; margin: auto;"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container inspections">
+            <div class="col-lg-2">
+                <span class="icon-Inspections_Icon" id="inspec_icon" style="color:#2f2f2f;"></span>
+            </div>
+            <div class="col-lg-10">
+                <h3>Inspections</h3>
+                <h6 style="font-size: 22px; color: #404040;">It's about Service, Safety and Compliance.</h6>
+                <p>We at Total Tool recognize the importance of service to our customers. That is why we not only sell tools and equipment but we also repair, inspect and certify tools and equipment.</p>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-6 col-md-6">
+                    <h5>On-site Inspections</h5>
+                    <p>Total Tool recognizes the importance of providing <a href="services_repair.html">REPAIR</a> and INSPECTION services to our customers.  Not only are there safety and compliancy factors to consider but consistent maintenance will increase your productivity.  At the completion of every inspection you will receive a paper and electronic copy of your report for easy future access.</p>
+                    <h5>Rigging Inspections</h5>
+                    <p>OSHA requires below the hook rigging to be inspected and properly documented.  Keep your employees safe and protect your business by making sure your gear including lifting beams and attachments as well as web, wire, rope, and chain slings are up to code.</p>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <div class="inspecPic" style="padding-top: 85px;">
+                        <img src="./img/inspectionPic1.jpg" />
+                    </div>
+                </div>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-12 col-md-12">
+                    <h5>Rigging Inspections</h5>
+                    <p>OSHA requires below the hook rigging to be inspected and properly documented.  Keep your employees safe and protect your business by making sure your gear including lifting beams and attachments as well as web, wire, rope, and chain slings are up to code.</p>
+                </div>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-12 col-md-12">
+                    <h5>Manual Hoist</h5>
+                    <p>In addition to a pre-shift inspection program for manual hoists, OHSA requires hoists are inspected and documented periodically.  This includes lever hoists and chainfalls.</p>
+
+                </div>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-12 col-md-12">
+                    <h5>Overhead Cranes</h5>
+                    <p>Due to the large and heavy objects often being transported by overhead cranes, routine inspections are necessary to ensure continued operation and overhead crane safety.  Per OSHA, a complete inspection with records is required at least every 12 months.  Wire rope and hook inspections are required monthly and must be recorded.</p>
+
+                </div>
+            </div>
+            <div class="row feature-group">
+                <div class="col-sm-12 col-md-12">
+                    <h5>InspectALL</h5>
+                    <p>Total Tool can help you create a more efficient process to standardize your inspection compliance program.  We use InspectALL, an inspection documentation software system that efficiently captures your audits and forms and automatically builds a powerful database.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <nav class="footer-nav">
+                    <div class="col-xs-4 col-sm-4 col-md-3">
+                        <a href="/">Home</a>
+                        <a href="contact.html">Contact Us</a>
+                        <a href="mailto:support@totaltool.com">Support</a>
+                        <a href="https://twitter.com/TotalToolSupply">Follow Us On Twitter</a>
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-3">
+                        <a href="markets.html">Markets</a>
+                        <section class="footer-markets">
+                            <a href="markets.html">General Contractors</a>
+                            <a href="markets.html">Industrial Companies</a>
+                            <a href="markets.html">Electrical Contractors</a>
+                            <a href="markets.html">Mechanical Contractors</a>
+                            <a href="markets.html">Utilities</a>
+                        </section>
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-3">
+                        <a href="contact.html">Contact</a>
+                        <address>
+                            <p style="margin-bottom: 0px;">315 North Pierce Street,</p>
+                            <p>Saint Paul, Minnesota 55104</p>
+                            <p class="telnumber">Tel: 1-800-444-4899</p>
+                            <p class="faxnumber">Fax: 651-646-8610</p>
+                        </address>
+                    </div>
+                </nav>
+                <section class="site-info xol-xs-6 col-md-3">
+                    <img src="./img/white_TSS.png" />
+                    <p>Website created by us</p>
+                </section>
+                <section class="legal-info col-xs-12 col-md-12">
+                    <p id="siteLegalinfo"><small>© Copyright 2016 by Total Tool Supply, Inc. All Rights Reserved.</small></p>
+                    <button id="toTop" type="button">Back to top<i class="fa fa-long-arrow-up" aria-hidden="true"></i></button>
+                </section>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./NotWre_files/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="./css/bootstrap/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./NotWre_files/ie10-viewport-bug-workaround.js"></script>
+    <script src="./NotWre_files/offcanvas.js"></script>
+    <script src="./scripts/Script1.js"></script>
+
+    <script>
+        $("#repair_nav").click(function () {
+            $(".tabs .active").removeClass("active");
+            $("#repair_nav").addClass("active");
+            $(".serviceMain .container.active").animate({ opacity: '0.2' }, "slow");
+            $(".serviceMain .container.active").removeClass("active");
+            $(".repair").addClass("active");
+            $(".repair").animate({ opacity: '1' }, "slow");
+        });
+
+        $("#training_nav").click(function () {
+            $(".tabs .active").removeClass("active");
+            $("#training_nav").addClass("active");
+            $(".serviceMain .container.active").animate({ opacity: '0.2' }, "slow");
+            $(".serviceMain .container.active").removeClass("active");
+            $(".training").addClass("active");
+            $(".training").animate({ opacity: '1' }, "slow");
+        });
+
+        $("#inspec_nav").click(function () {
+            $(".tabs .active").removeClass("active");
+            $("#inspec_nav").addClass("active");
+            $(".serviceMain .container.active").animate({ opacity: '0.2' }, "slow");
+            $(".serviceMain .container.active").removeClass("active");
+            $(".inspections").addClass("active");
+            $(".inspections").animate({ opacity: '1' }, "slow");
+        });
+
+        $("#rental_nav").click(function () {
+            $(".tabs .active").removeClass("active");
+            $("#rental_nav").addClass("active");
+            $(".serviceMain .container.active").animate({ opacity: '0.2' }, "slow");
+            $(".serviceMain .container.active").removeClass("active");
+            $(".rental").addClass("active");
+            $(".rental").animate({ opacity: '1' }, "slow");
+        });
+        $("#rigging_nav").click(function () {
+            $(".tabs .active").removeClass("active");
+            $("#rigging_nav").addClass("active");
+            $(".serviceMain .container.active").animate({ opacity: '0.2' }, "slow");
+            $(".serviceMain .container.active").removeClass("active");
+            $(".rigging").addClass("active");
+            $(".rigging").animate({ opacity: '1' }, "slow");
+        });
+    </script>
+
+    <script>
+        $("#yellow").click(function () {
+            $(".serviceIntro h1").css("color", "#ffb81c");
+            $(".services-nav a.active").css("color", "#ffb81c");
+            $(".service-nav a:before").css("background", "#ffb81c");
+            $(".serviceMain h3").css("color", "#ffb81c");
+            $(".serviceMain .col-lg-2 i").css("color", "#ffb81c");
+            $(".serviceMain h5").css("color", "#ffb81c");
+            $(".serviceMain").css("border-top", "1px solid #ffb81c");
+        });
+    </script>
+
+
+</body>
+</html>

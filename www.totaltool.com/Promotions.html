@@ -1,0 +1,494 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0043)http://getbootstrap.com/examples/offcanvas/ -->
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="./img/ttLogo_small.png">
+
+    <title>Total Tool Supply, Inc.</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="./NotWre_files/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./NotWre_files/offcanvas.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/font-awesome-4.6.3/css/font-awesome.min.css" />
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./NotWre_files/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="topbar">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="logo">
+                    <a href="/">
+                        <img src="./img/TTlogo_clean.png" />
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-5" style="float: right;">
+                <div class="info">
+                    1-800-444-4899
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-inverse">
+        <div class="container" style="">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="navListItem"><a class="navButton_a" href="/" style="padding-bottom: 10px;"><i class="fa fa-home" aria-hidden="true" style="font-size: 1.5em;"></i></a><span class="underline"></span></li>
+                    <li class="navListItem"><a id="navButton_About" href="tools">Tools</a><span class="underline"></span></li>
+                    <li class="navListItem"><a class="navButton_Tool" href="services">Rental</a><span class="underline"></span></li>
+                    <li class="navListItem"><a class="navButton_Rental" href="services_repair">Repair</a><span class="underline"></span></li>
+                    <li class="navListItem"><a class="navButton_Rental2" href="services_rigging">Rigging</a><span class="underline"></span></li>
+                    <li class="navListItem"><a class="navButton_Rental2" href="safety">Safety</a><span class="underline"></span></li>
+                    <li class="navListItem"><a class="navButton_Rental2" href="about">About</a><span class="underline"></span></li>
+                    <li class="navListItem"><a class="navButton_Rental2" href="cranehoist">Crane & Hoist</a><span class="underline"></span></li>
+                    <li class="navListItem"><a class="navButton_Rental3" href="employment">Employment</a><span class="underline"></span></li>
+                    <li class="navListItem"><a class="navButton_Rental2" href="FAQ">FAQ</a><span class="underline"></span></li>
+                </ul>
+            </div><!-- /.nav-collapse -->
+        </div><!-- /.container -->
+    </nav><!-- /.navbar -->
+
+    <div class="promoIntro" style="background-color: #141414; background-image: url(https://www.transparenttextures.com/patterns/dark-stripes.png);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <h1>Promotions</h1>
+                    <h2>Total Tool provides services for the companies that build and maintain facilites and systems. Let us be your one-stop destination for all your service needs.</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="promotionMain" style="background-color: #888b8d; background-image: url(https://www.transparenttextures.com/patterns/dust.png)">
+        <div class="featuredPromo">
+            <div id="countdown" class="countdownHolder" style="display: none;">
+
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="ribbon"></div>
+                        <div class="featuredTitle"><span class="featured">Featured</span></div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 50px; margin-bottom: 25px;">
+                    <div class="col-lg-4 col-md-4">
+                        <div class="featuredBox outer">
+                            <div class="featuredBox inner">
+                                <div class="boxTitle"><span class="title">DeWalt Rewards Program</span></div>
+                                <a href="./img/promo_pdf8.pdf" class="frame"><img src="./img/promo_ex11.jpg" /></a>
+                                <div class="content">
+                                    <span class="subtext">6 months of DeWalt purchases from Total Tool can add up to major rewards</span>
+                                </div>
+                                <div class="bottomBlock">
+                                    <div class="info">
+                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                        <p class="date">Nov. 30</p>
+                                        <p class="company">DeWalt</p>
+                                        <p class="btn-group"></p>
+                                    </div>
+                                    <div class="triangle"><i class="fa fa-bolt" aria-hidden="true" style="right: 311px;"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="featuredBox outer">
+                            <div class="featuredBox inner">
+                                <div class="boxTitle"><span class="title">3M DBI-SALA Fall Protection</span></div>
+                                <a href="./img/promo_pdf3.pdf" class="frame"><img src="./img/promo_ex6.jpg" /></a>
+                                <div class="content">
+                                    <span class="subtext">Play it safe and take advantage of this Trade-In /Trade-Up program</span>
+                                </div>
+                                <div class="bottomBlock">
+                                    <div class="info">
+                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                        <p class="date">Dec. 31</p>
+                                        <p class="company" style="padding-left: 146px;">3M</p>
+                                    </div>
+                                    <div class="triangle"><i class="fa fa-bolt" aria-hidden="true" style="right: 316px;"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="featuredBox outer">
+                            <div class="featuredBox inner">
+                                <div class="boxTitle"><span class="title">Motorola Customer Rebate</span></div>
+                                <a href="./img/promo_pdf14.pdf" class="frame"><img src="./img/promo_ex17.jpg" /></a>
+                                <div class="content">
+                                    <span class="subtext">Free Multi-Unit Charger PLUS a Visa Gift Card</span>
+                                </div>
+                                <div class="bottomBlock" style="margin-top: 20px;">
+                                    <div class="info">
+                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                        <p class="date">Dec. 31</p>
+                                        <p class="company">Motorola</p>
+                                    </div>
+                                    <div class="triangle"><i class="fa fa-bolt" aria-hidden="true" style="right: 322px;"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- DON'T REMOVE 
+					<div class="col-lg-4 col-md-4" id="PROMOTION_EXAMPLE_DO_NOT_CHANGE">
+                        <div class="featuredBox outer">
+                            <div class="featuredBox inner">
+                                <div class="boxTitle"><span class="title">Enter Title Here</span></div>
+                                <a href="./img/PDFLocation.pdf" class="frame"><img src="./img/ImageLocation.jpg" /></a>
+                                <div class="content">
+                                    <span class="subtext">Enter Subtext Here</span>
+                                </div>
+                                <div class="bottomBlock">
+                                    <div class="info">
+                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                        <p class="date">Enter Date Here</p>
+                                        <p class="company">Enter Company Name Here</p>
+                                    </div>
+                                    <div class="triangle"><i class="fa fa-bolt" aria-hidden="true" style="right: 322px;"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+					DON'T REMOVE -->
+                </div>
+                <div class="row" style="margin-top: 50px; margin-bottom: 25px;">
+
+                    <div class="col-lg-4 col-md-4">
+                        <div class="featuredBox outer">
+                            <div class="featuredBox inner">
+                                <div class="boxTitle"><span class="title">DeWalt Promo</span></div>
+                                <a href="./img/promo_pdf18.pdf" class="frame"><img src="./img/promo_ex21.jpg" /></a>
+                                <div class="content">
+                                    <span class="subtext">Great offers from DeWalt!</span>
+                                </div>
+                                <div class="bottomBlock">
+                                    <div class="info">
+                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                        <p class="date">Dec. 31</p>
+                                        <p class="company">DeWalt</p>
+                                    </div>
+                                    <div class="triangle"><i class="fa fa-bolt" aria-hidden="true" style="right: 306px;"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="featuredBox outer">
+                            <div class="featuredBox inner">
+                                <div class="boxTitle"><span class="title">Receive Free Gifts from Fluke</span></div>
+                                <a href="./img/promo_pdf13.pdf" class="frame"><img src="./img/promo_ex16.jpg" /></a>
+                                <div class="content">
+                                    <span class="subtext">Get up to $3,000 in FREE GIFTS for you and your crew!</span>
+                                </div>
+                                <div class="bottomBlock">
+                                    <div class="info">
+                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                        <p class="date">Dec. 31</p>
+                                        <p class="company">Fluke</p>
+                                    </div>
+                                    <div class="triangle"><i class="fa fa-bolt" aria-hidden="true" style="right: 288px;"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="featuredBox outer">
+                            <div class="featuredBox inner">
+                                <div class="boxTitle"><span class="title">Ridgid Mail-In Offer</span></div>
+                                <a href="./img/promo_pdf15.pdf" class="frame"><img src="./img/promo_ex18.jpg" /></a>
+                                <div class="content">
+                                    <span class="subtext">Free product with purchase of RP241 Kits</span>
+                                </div>
+                                <div class="bottomBlock">
+                                    <div class="info">
+                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                        <p class="date">Nov. 30</p>
+                                        <p class="company">Ridgid</p>
+                                    </div>
+                                    <div class="triangle"><i class="fa fa-bolt" aria-hidden="true" style="right: 302px;"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- DON'T REMOVE 
+					<div class="col-lg-4 col-md-4" id="PROMOTION_EXAMPLE_DO_NOT_CHANGE">
+                        <div class="featuredBox outer">
+                            <div class="featuredBox inner">
+                                <div class="boxTitle"><span class="title">Enter Title Here</span></div>
+                                <a href="./img/PDFLocation.pdf" class="frame"><img src="./img/ImageLocation.jpg" /></a>
+                                <div class="content">
+                                    <span class="subtext">Enter Subtext Here</span>
+                                </div>
+                                <div class="bottomBlock">
+                                    <div class="info">
+                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                        <p class="date">Enter Date Here</p>
+                                        <p class="company">Enter Company Name Here</p>
+                                    </div>
+                                    <div class="triangle"><i class="fa fa-bolt" aria-hidden="true" style="right: 322px;"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+					DON'T REMOVE -->
+                </div>
+                <div class="row" style="margin-top: 50px; margin-bottom: 25px;">
+                    <div class="col-lg-4 col-md-4">
+                        <div class="featuredBox outer">
+                            <div class="featuredBox inner">
+                                <div class="boxTitle"><span class="title">Ridgid Mail-In Offer</span></div>
+                                <a href="./img/promo_pdf16.pdf" class="frame"><img src="./img/promo_ex19.jpg" /></a>
+                                <div class="content">
+                                    <span class="subtext">Free product with purchase of RP340 Kit</span>
+                                </div>
+                                <div class="bottomBlock">
+                                    <div class="info">
+                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                        <p class="date">Dec. 31</p>
+                                        <p class="company">Ridgid</p>
+                                    </div>
+                                    <div class="triangle"><i class="fa fa-bolt" aria-hidden="true" style="right: 298px;"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="featuredBox outer">
+                            <div class="featuredBox inner">
+                                <div class="boxTitle"><span class="title">Fluke & PLS Offer</span></div>
+                                <a href="./img/promo_pdf17.pdf" class="frame"><img src="./img/promo_ex20.jpg" /></a>
+                                <div class="content">
+                                    <span class="subtext">Fall for these deals</span>
+                                </div>
+                                <div class="bottomBlock">
+                                    <div class="info">
+                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                        <p class="date">Dec. 31</p>
+                                        <p class="company">Fluke</p>
+                                    </div>
+                                    <div class="triangle"><i class="fa fa-bolt" aria-hidden="true" style="right: 288px;"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+					<div class="col-lg-4 col-md-4">
+                        <div class="featuredBox outer">
+                            <div class="featuredBox inner">
+                                <div class="boxTitle"><span class="title">Milwaukee Promo</span></div>
+                                <a href="./img/promo_pdf19.pdf" class="frame"><img src="./img/promo_ex22.jpg" /></a>
+                                <div class="content">
+                                    <span class="subtext">Loads of savings from Milwaukee!</span>
+                                </div>
+                                <div class="bottomBlock">
+                                    <div class="info">
+                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                        <p class="date">Jan. 31</p>
+                                        <p class="company">Milwaukee</p>
+                                    </div>
+                                    <div class="triangle"><i class="fa fa-bolt" aria-hidden="true" style="right: 322px;"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- DON'T REMOVE 
+					<div class="col-lg-4 col-md-4" id="PROMOTION_EXAMPLE_DO_NOT_CHANGE">
+                        <div class="featuredBox outer">
+                            <div class="featuredBox inner">
+                                <div class="boxTitle"><span class="title">Enter Title Here</span></div>
+                                <a href="./img/PDFLocation.pdf" class="frame"><img src="./img/ImageLocation.jpg" /></a>
+                                <div class="content">
+                                    <span class="subtext">Enter Subtext Here</span>
+                                </div>
+                                <div class="bottomBlock">
+                                    <div class="info">
+                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                        <p class="date">Enter Date Here</p>
+                                        <p class="company">Enter Company Name Here</p>
+                                    </div>
+                                    <div class="triangle"><i class="fa fa-bolt" aria-hidden="true" style="right: 322px;"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+					DON'T REMOVE -->
+					
+                </div>
+				<div class="row" style="margin-top: 50px; margin-bottom: 25px;">
+				<div class="col-lg-4 col-md-4">
+                        <div class="featuredBox outer">
+                            <div class="featuredBox inner">
+                                <div class="boxTitle"><span class="title">DBI Promo</span></div>
+                                <a href="./img/promo_pdf20.pdf" class="frame"><img src="./img/promo_ex23.jpg" /></a>
+                                <div class="content">
+                                    <span class="subtext">Stop the drop!</span>
+                                </div>
+                                <div class="bottomBlock">
+                                    <div class="info">
+                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                        <p class="date">Dec, 31</p>
+                                        <p class="company">3M DBI</p>
+                                    </div>
+                                    <div class="triangle"><i class="fa fa-bolt" aria-hidden="true" style="right: 322px;"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+				
+				
+                <div class="row" id="AD_row">
+                    <div class="col-lg-12">
+                        <div class="twitterPic">
+                            <a href="https://twitter.com/TotalToolSupply">
+                                <img src="./img/ttAd_1.jpg" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="stripes">
+            <!-- / / / / / / / / / / / / / / / / / /-->
+        </div>
+        <div class="promo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="promoItem">
+                          
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="promoItem">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <nav class="footer-nav">
+                    <div class="col-xs-4 col-sm-4 col-md-3">
+                        <a href="/">Home</a>
+                        <a href="contact.html">Contact Us</a>
+                        <a href="mailto:support@totaltool.com">Support</a>
+                        <a href="https://twitter.com/TotalToolSupply">Follow Us On Twitter</a>
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-3">
+                        <a href="markets.html">Markets</a>
+                        <section class="footer-markets">
+                            <a href="markets.html">General Contractors</a>
+                            <a href="markets.html">Industrial Companies</a>
+                            <a href="markets.html">Electrical Contractors</a>
+                            <a href="markets.html">Mechanical Contractors</a>
+                            <a href="markets.html">Utilities</a>
+                        </section>
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-3">
+                        <a href="contact.html">Contact</a>
+                        <address>
+                            <p style="margin-bottom: 0px;">315 North Pierce Street,</p>
+                            <p>Saint Paul, Minnesota 55104</p>
+                            <p class="telnumber">Tel: 1-800-444-4899</p>
+                            <p class="faxnumber">Fax: 651-646-8610</p>
+                        </address>
+                    </div>
+                </nav>
+                <section class="site-info col-xs-6 col-md-3">
+                    <img src="./img/white_TSS.png" />
+                    <p>Website created by us</p>
+                </section>
+                <section class="legal-info col-xs-12 col-md-12">
+                    <p id="siteLegalinfo"><small>© Copyright 2016 by Total Tool Supply, Inc. All Rights Reserved.</small></p>
+                    <button id="toTop" type="button">Back to top<i class="fa fa-long-arrow-up" aria-hidden="true"></i></button>
+                </section>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./NotWre_files/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="./css/bootstrap/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./NotWre_files/ie10-viewport-bug-workaround.js"></script>
+    <script src="./NotWre_files/offcanvas.js"></script>
+    <script src="./scripts/Script1.js"></script>
+
+    <script>
+        $("#repair_nav").click(function () {
+            $(".tabs .active").removeClass("active");
+            $("#repair_nav").addClass("active");
+            $(".serviceMain .container.active").animate({ opacity: '0.2' }, "slow");
+            $(".serviceMain .container.active").removeClass("active");
+            $(".repair").addClass("active");
+            $(".repair").animate({ opacity: '1' }, "slow");
+        });
+
+        $("#training_nav").click(function () {
+            $(".tabs .active").removeClass("active");
+            $("#training_nav").addClass("active");
+            $(".serviceMain .container.active").animate({ opacity: '0.2' }, "slow");
+            $(".serviceMain .container.active").removeClass("active");
+            $(".training").addClass("active");
+            $(".training").animate({ opacity: '1' }, "slow");
+        });
+
+        $("#inspec_nav").click(function () {
+            $(".tabs .active").removeClass("active");
+            $("#inspec_nav").addClass("active");
+            $(".serviceMain .container.active").animate({ opacity: '0.2' }, "slow");
+            $(".serviceMain .container.active").removeClass("active");
+            $(".inspections").addClass("active");
+            $(".inspections").animate({ opacity: '1' }, "slow");
+        });
+
+        $("#rental_nav").click(function () {
+            $(".tabs .active").removeClass("active");
+            $("#rental_nav").addClass("active");
+            $(".serviceMain .container.active").animate({ opacity: '0.2' }, "slow");
+            $(".serviceMain .container.active").removeClass("active");
+            $(".rental").addClass("active");
+            $(".rental").animate({ opacity: '1' }, "slow");
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?vbuuc');
+  src:  url('fonts/icomoon.eot?vbuuc#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?vbuuc') format('truetype'),
+    url('fonts/icomoon.woff?vbuuc') format('woff'),
+    url('fonts/icomoon.svg?vbuuc#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-location_icon:before {
+  content: "\e90b";
+}
+.icon-gHcAeuelCA:before {
+  content: "\e900";
+}
+.icon-Rental_icon:before {
+  content: "\e901";
+}
+.icon-promotion_icon-(2):before {
+  content: "\e902";
+}
+.icon-repair_icon:before {
+  content: "\e903";
+}
+.icon-Inspections_Icon:before {
+  content: "\e904";
+}
+.icon-cranehoist_icon:before {
+  content: "\e905";
+}
+.icon-tools_icon:before {
+  content: "\e906";
+}
+.icon-cart:before {
+  content: "\e93a";
+}
+.icon-clock2:before {
+  content: "\e94f";
+}
+.icon-alarm:before {
+  content: "\e950";
+}
+.icon-stopwatch:before {
+  content: "\e952";
+}
+.icon-users:before {
+  content: "\e972";
+}
+.icon-user-tie:before {
+  content: "\e976";
+}
+.icon-spinner9:before {
+  content: "\e982";
+}
+.icon-spinner10:before {
+  content: "\e983";
+}
+.icon-lock:before {
+  content: "\e98f";
+}
+.icon-unlocked:before {
+  content: "\e990";
+}
+.icon-wrench:before {
+  content: "\e991";
+}
+.icon-power:before {
+  content: "\e9b5";
+}
+.icon-share2:before {
+  content: "\ea82";
+}
+.icon-mail:before {
+  content: "\ea83";
+}
+.icon-fire:before {
+  content: "\e9a9";
+}
+.icon-chain:before {
+  content: "\e907";
+}
+.icon-link:before {
+  content: "\e907";
+}
+.icon-cogs:before {
+  content: "\e908";
+}
+.icon-gears:before {
+  content: "\e908";
+}
+.icon-cone:before {
+  content: "\e909";
+}
+.icon-construction:before {
+  content: "\e909";
+}
+.icon-tools:before {
+  content: "\e90a";
+}
